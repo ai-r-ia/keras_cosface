@@ -1,0 +1,10 @@
+name: faces_vgg8_3d
+arch: vgg8
+num_features: 3
+scheduler: CosineAnnealing
+epochs: 10
+batch_size: 32
+optimizer: SGD
+lr: 0.1
+min_lr: 0.001
+momentum: 0.5
